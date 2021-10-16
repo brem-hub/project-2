@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="project_cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/bremka/University/Architect/project-cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/bremka/University/Architect/project-cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/bremka/University/Architect/project-cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project_cpp">
+				<Option output="/home/bremka/University/Architect/project-cpp/bin/project_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bremka/University/Architect/project-cpp/cmake-build-debug/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_cpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project_cpp/fast">
+				<Option output="/home/bremka/University/Architect/project-cpp/bin/project_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bremka/University/Architect/project-cpp/cmake-build-debug/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bremka/University/Architect/project-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/container/container.cpp">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/container/container.h">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/main.cpp">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/objects/complex.cpp">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/objects/complex.h">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/objects/fraction.cpp">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/objects/fraction.h">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/objects/number.cpp">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/objects/number.h">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/objects/point.h">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/objects/polar.cpp">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/objects/polar.h">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/utils/utils.h">
+			<Option target="project_cpp"/>
+		</Unit>
+		<Unit filename="/home/bremka/University/Architect/project-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

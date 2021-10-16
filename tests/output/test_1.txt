@@ -1,0 +1,26 @@
+0: polar: w=7.255581; coords=(-80, 43); double representation: 90.824006
+1: polar: w=0.666743; coords=(22, -46); double representation: 50.990195
+2: polar: w=3.830075; coords=(42, 70); double representation: 81.633327
+3: polar: w=3.271742; coords=(4, 27); double representation: 27.294688
+4: fraction: 73/-69; double representation: -1.057971
+5: polar: w=0.849812; coords=(-95, 93); double representation: 132.943597
+6: fraction: -44/45; double representation: -0.977778
+7: fraction: 72/55; double representation: 1.309091
+8: fraction: 27/73; double representation: 0.369863
+9: fraction: -77/45; double representation: -1.711111
+=======================
+
+number of elements: 10
+
+====| Straight Sort results | ====
+
+0: fraction: -77/45; double representation: -1.711111
+1: fraction: 73/-69; double representation: -1.057971
+2: fraction: -44/45; double representation: -0.977778
+3: fraction: 27/73; double representation: 0.369863
+4: fraction: 72/55; double representation: 1.309091
+5: polar: w=3.271742; coords=(4, 27); double representation: 27.294688
+6: polar: w=0.666743; coords=(22, -46); double representation: 50.990195
+7: polar: w=3.830075; coords=(42, 70); double representation: 81.633327
+8: polar: w=7.255581; coords=(-80, 43); double representation: 90.824006
+9: polar: w=0.849812; coords=(-95, 93); double representation: 132.943597
