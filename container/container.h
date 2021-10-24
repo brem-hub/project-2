@@ -36,7 +36,7 @@ class container {
    * @param: out - [optional] дескриптор файла, открытого на вывод для записи сгенерированных элементов.
    * @returns: код статуса операции.
    */
-  int randomFill(int size, FILE* out = nullptr);
+  int randomFill(int size, FILE* out = NULL);
 
   /*
    * Сортировать контейнер по вещественному представлению чисел в порядке возрастания.
