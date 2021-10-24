@@ -18,3 +18,18 @@ void polar::outConfig(FILE* out) {
     fprintf(out, "%d\n", number::POLAR);
     fprintf(out, "%lf %d %d\n", _angle, _coords.x, _coords.y);
 }
+
+int polar::in(FILE *input) {
+    double angle;
+    point coords;
+    int res = fscanf(input, "%lf %d %d", &angle, &coords.x, &coords.y);
+
+    if (res != 3) {
+        printf("Could not read polar number\n");
+        return 1;
+    }
+
+    _angle = angle;
+    _coords = coords;
+    return 0;
+}

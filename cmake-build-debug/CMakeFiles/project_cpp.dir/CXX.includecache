@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/bremka/University/Architect/project-cpp/container/container.cpp
-complex.h
-/home/bremka/University/Architect/project-cpp/container/complex.h
-container.h
-/home/bremka/University/Architect/project-cpp/container/container.h
-
 /home/bremka/University/Architect/project-cpp/container/container.h
 ../objects/number.h
 /home/bremka/University/Architect/project-cpp/objects/number.h
@@ -35,6 +29,8 @@ container/container.h
 /home/bremka/University/Architect/project-cpp/container/container.h
 objects/number.h
 /home/bremka/University/Architect/project-cpp/objects/number.h
+iostream
+-
 
 /home/bremka/University/Architect/project-cpp/objects/complex.h
 cmath

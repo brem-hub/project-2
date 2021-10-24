@@ -14,14 +14,21 @@ class complex : public number {
   complex() : complex(0,0) {}
 
   /*
+   * Ввод числа из файла.
+   * @param: input - дескриптор файла, открытого на чтение.
+   * @returns: status_code.
+   */
+  int in(FILE* input) override;
+
+  /*
    * Вывести комплексное число в файл в формате ввода.
-   * @param: out - дескриптор файла, открытый на запись.
+   * @param: out - дескриптор файла, открытого на запись.
    */
   void outConfig(FILE* out) override;
 
   /*
    * Вывести комплексное число в human-readable виде в файл.
-   * @param: out - дескриптор файла, открытый на запись.
+   * @param: out - дескриптор файла, открытого на запись.
    */
   void out(FILE* out) override;
 

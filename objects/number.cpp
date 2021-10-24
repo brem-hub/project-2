@@ -13,37 +13,26 @@
          return NULL;
      }
 
+     number* num;
+
      switch (type) {
-         case COMPLEX:{
-             double real, imaginary;
-             res = fscanf(in, "%lf %lf", &real, &imaginary);
-             if (res != 2) {
-                 printf("Could not read complex number\n");
-                 return NULL;
-             }
-             return new complex(real, imaginary);
-         }
-         case FRACTION:{
-             int numerator, denominator;
-             res = fscanf(in, "%d %d", &numerator, &denominator);
-             if (res != 2) {
-                 printf("Could not read fraction number\n");
-                 return NULL;
-             }
-             return new fraction(numerator, denominator);
-         }
-         case POLAR:{
-             double angle;
-             point coords;
-             res = fscanf(in, "%lf %d %d", &angle, &coords.x, &coords.y);
-             if (res != 3) {
-                 printf("Could not read polar number\n");
-                 return NULL;
-             }
-             return new polar(angle, coords);
-         }
+         case COMPLEX:
+             num = new complex();
+             break;
+         case FRACTION:
+             num = new fraction();
+             break;
+         case POLAR:
+             num = new polar();
+             break;
          default:
              printf("Could not read number\n");
              return NULL;
      }
+
+     if (num->in(in)){
+         printf("Error occurred while reading number, exiting\n");
+         return NULL;
+     }
+     return num;
 }

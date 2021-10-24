@@ -17,3 +17,15 @@ void complex::outConfig(FILE* out) {
     fprintf(out, "%d\n", number::COMPLEX);
     fprintf(out, "%lf %lf\n", _real, _imaginary);
 }
+int complex::in(FILE *input) {
+    double real, imaginary;
+    int res = fscanf(input, "%lf %lf", &real, &imaginary);
+    if (res != 2) {
+        printf("Could not read complex number\n");
+        return 1;
+    }
+    _real = real;
+    _imaginary = imaginary;
+
+    return 0;
+}

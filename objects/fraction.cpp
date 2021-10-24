@@ -17,3 +17,16 @@ void fraction::outConfig(FILE* out) {
     fprintf(out, "%d\n", number::FRACTION);
     fprintf(out, "%d %d\n", _numerator, _denominator);
 }
+
+int fraction::in(FILE *input) {
+    int numerator, denominator;
+    int res = fscanf(input, "%d %d", &numerator, &denominator);
+    if (res != 2) {
+        printf("Could not read fraction number\n");
+        return 1;
+    }
+    _numerator = numerator;
+    _denominator = denominator;
+
+    return 0;
+}

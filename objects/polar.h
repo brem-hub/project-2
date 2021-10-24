@@ -13,6 +13,14 @@ class polar : public number {
   polar(double angle, point coords): _angle(angle), _coords(coords) {}
   polar(): polar(0.0, point(0, 0)) {}
 
+
+  /*
+   * Ввод числа из файла.
+   * @param: input - дескриптор файла, открытый на чтение.
+   * @returns: status_code.
+   */
+  int in(FILE* input) override;
+
   /*
    * Вывести полярное число в файл в формате ввода.
    * @param: out - дескриптор файла, открытый на запись.

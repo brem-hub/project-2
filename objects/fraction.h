@@ -13,6 +13,13 @@ class fraction: public number {
   fraction(): fraction(0,0) {}
 
   /*
+   * Ввести число из файла.
+   * @param: input - дескриптор файла, открытый на чтение.
+   * @returns: status_code.
+   */
+  int in(FILE* input) override;
+
+  /*
    * Вывести дробное число в файл в формате ввода.
    * @param: out - дескриптор файла, открытый на запись.
    */

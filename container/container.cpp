@@ -10,15 +10,14 @@ container::container() {
 }
 
 container::~container() {
-    _size = 0;
     for (int i = 0; i < _size; ++i) {
         delete _array[i];
     }
+    _size = 0;
     delete _array;
 }
 
 int container::add(number *num) {
-
     if (_size > MAX_CONTAINER_SIZE) {
         printf("Container is filled, cannot add any new values\n");
         return 1;
@@ -54,7 +53,6 @@ int container::fill(FILE* in) {
             return 1;
         }
     }
-
     return 0;
 }
 
